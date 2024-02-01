@@ -6,22 +6,22 @@ The project consists of implementing an automatic player for the ConnectX game, 
 
 ## Getting Started
 To compile the project, navigate to the connectx/ directory and run the following command:
-  javac -cp ".." *.java */*.java
+        javac -cp ".." *.java */*.java
   
 ### CXGame Application:
 To play against the AI or watch AI vs. AI matches, use the following commands:
 
 - Human vs Computer:
-  java -cp ".." connectx.CXGame 6 7 4 connectx.L0.L0
+        java -cp ".." connectx.CXGame 6 7 4 connectx.L0.L0
 
 - Computer vs Computer:
-  java -cp ".." connectx.CXGame 6 7 4 connectx.L0.L0 connectx.L1.L1
+        java -cp ".." connectx.CXGame 6 7 4 connectx.L0.L0 connectx.L1.L1
 
 ### CXPlayerTester Application
 Test the AI player with different configurations:
 
 - Output score only:
-  java -cp ".." connectx.CXPlayerTester 6 7 4 connectx.L0.L0 connectx.L1.L1
+        java -cp ".." connectx.CXPlayerTester 6 7 4 connectx.L0.L0 connectx.L1.L1
 
 - Verbose output:
   java -cp ".." connectx.CXPlayerTester 6 7 4 connectx.L0.L0 connectx.L1.L1 -v
